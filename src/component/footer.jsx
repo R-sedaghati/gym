@@ -18,27 +18,27 @@ const Footer = () => {
               <h5 className="pb-3">صفحات</h5>
               <ul className="list-unstyled">
                 <li>
-                  <a className="footer-link" href="">
+                  <a className="footer-link" href="#home">
                     خانه
                   </a>
                 </li>
                 <li>
-                  <a className="footer-link" href="">
+                  <a className="footer-link" href="#award">
                     افتخارات
                   </a>
                 </li>
                 <li>
-                  <a className="footer-link" href="">
+                  <a className="footer-link" href="#gallery">
                     گالری
                   </a>
                 </li>
                 <li>
-                  <a className="footer-link" href="">
+                  <a className="footer-link" href="#trainers">
                     مربی ها
                   </a>
                 </li>
                 <li>
-                  <a className="footer-link" href="">
+                  <a className="footer-link" href="#membership">
                     پلن ها
                   </a>
                 </li>

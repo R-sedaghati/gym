@@ -15,7 +15,7 @@ const Gallery = () => {
   return (
     <>
       {/* <!-- gallery --> */}
-      <section className="py-5">
+      <section className="py-5" id="gallery">
         <div className="container-fluid">
           {/* <!-- title --> */}
           <div className="row text-center mb-5 justify-content-center">

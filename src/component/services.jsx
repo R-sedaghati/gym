@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <>
       {/* <!-- services --> */}
-      <section className="bg-secondary py-4">
+      <section className="bg-secondary py-4" id="services">
         <div className="container-fluid">
           {/* <!-- title --> */}
           <div className="row text-center mb-5 justify-content-center">

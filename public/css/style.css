@@ -2,6 +2,9 @@
   font-family: yekan;
   src: url(../font/iranyekanwebbold.ttf) format("truetype");
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: yekan;

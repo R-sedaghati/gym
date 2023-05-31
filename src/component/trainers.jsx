@@ -6,7 +6,7 @@ const Trainers = () => {
   return (
     <>
       {/* <!-- trainers --> */}
-      <section className="trainers p-5">
+      <section className="trainers p-5" id="trainers">
         <div className="container-fluid">
           {/* <!-- title --> */}
           <div className="row text-center mb-2 justify-content-center">

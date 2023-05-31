@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <>
       {/* <!-- contact --> */}
-      <section className="contact p-5">
+      <section className="contact p-5" id="contact">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-5 pb-4 ms-auto">

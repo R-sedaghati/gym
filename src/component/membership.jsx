@@ -2,7 +2,7 @@ const Membership = () => {
   return (
     <>
       {/* <!-- membership --> */}
-      <section>
+      <section id="membership">
         <div className="container-fluid p-5 text-center">
           {/* <!-- title --> */}
           <div className="row text-center mb-5 justify-content-center">

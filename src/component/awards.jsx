@@ -4,7 +4,7 @@ const Awards = () => {
   return (
     <>
       {/* <!-- awards --> */}
-      <section className="p-5 awards">
+      <section className="p-5 awards" id="award">
         <div className="container-fluid">
           {/* <!-- title --> */}
           <div className="row text-center mb-5 justify-content-center">

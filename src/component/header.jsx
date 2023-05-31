@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <>
       {/* header */}
-      <header>
+      <header id="home">
         {/* navbar */}
         <nav className="navbarr navbar-expand-lg fixed-top nav-menu">
           <button
@@ -17,37 +17,37 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="my-nav">
             <ul className="navbar-nav list-unstyled">
               <li className="nav-item">
-                <a href="" className="nav-link m-2 menu-item ps-3">
+                <a href="#home" className="nav-link m-2 menu-item ps-3">
                   خانه
                 </a>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link m-2 menu-item px-2">
+                <a href="#award" className="nav-link m-2 menu-item px-2">
                   افتخارات
                 </a>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link m-2 menu-item px-2">
+                <a href="#services" className="nav-link m-2 menu-item px-2">
                   خدمات
                 </a>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link m-2 menu-item px-2">
+                <a href="#gallery" className="nav-link m-2 menu-item px-2">
                   گالری
                 </a>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link m-2 menu-item px-2">
+                <a href="#trainers" className="nav-link m-2 menu-item px-2">
                   مربی ها
                 </a>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link m-2 menu-item px-2">
+                <a href="#membership" className="nav-link m-2 menu-item px-2">
                   پلن ها
                 </a>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link m-2 menu-item px-2">
+                <a href="#contact" className="nav-link m-2 menu-item px-2">
                   ارتباط با ما
                 </a>
               </li>
