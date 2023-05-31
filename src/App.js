@@ -4,6 +4,7 @@ import Services from "./component/services";
 import Gallery from "./component/gallery";
 import Trainers from "./component/trainers";
 import Membership from "./component/membership";
+import Contact from "./component/contact";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <Gallery />
       <Trainers />
       <Membership />
+      <Contact />
     </>
   );
 }
