@@ -3,6 +3,7 @@ import Awards from "./component/awards";
 import Services from "./component/services";
 import Gallery from "./component/gallery";
 import Trainers from "./component/trainers";
+import Membership from "./component/membership";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <Services />
       <Gallery />
       <Trainers />
+      <Membership />
     </>
   );
 }

@@ -201,7 +201,7 @@ header {
 .card-2,
 .card-3 {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-    url(../../membership.jpg);
+    url(../membership.jpg);
   background-size: cover;
   box-shadow: 7px 8px 50px #555;
   max-width: 370px;
