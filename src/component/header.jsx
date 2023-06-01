@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
@@ -45,6 +46,11 @@ const Navbar = () => {
                 <a href="#membership" className="nav-link m-2 menu-item px-2">
                   پلن ها
                 </a>
+              </li>
+              <li className="nav-item">
+                <Link to="/login" className="nav-link m-2 menu-item px-2">
+                  ثبت نام
+                </Link>
               </li>
               <li className="nav-item">
                 <a href="#contact" className="nav-link m-2 menu-item px-2">
