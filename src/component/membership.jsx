@@ -31,7 +31,7 @@ const Membership = () => {
                     <li className="py-3 card-list-item">سالن هوازی</li>
                     <li className="py-3 card-list-item border-0">سالن آبی</li>
                   </ul>
-                  <a href="" className="btn membership-card-button text-light">
+                  <a href="" className="btn membership-card-button text-light card-a">
                     ثبت نام
                   </a>
                 </div>
@@ -50,7 +50,7 @@ const Membership = () => {
                     <li className="py-3 card-list-item">سالن هوازی</li>
                     <li className="py-3 card-list-item border-0">سالن آبی</li>
                   </ul>
-                  <a href="" className="btn membership-card-button text-light">
+                  <a href="" className="btn membership-card-button text-light card-a">
                     ثبت نام
                   </a>
                 </div>
@@ -69,7 +69,7 @@ const Membership = () => {
                     <li className="py-3 card-list-item">سالن هوازی</li>
                     <li className="py-3 card-list-item border-0">سالن آبی</li>
                   </ul>
-                  <a href="" className="btn membership-card-button text-light">
+                  <a href="" className="btn membership-card-button text-light card-a">
                     ثبت نام
                   </a>
                 </div>

@@ -1,9 +1,11 @@
 import "../login.css";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const navigate = useNavigate();
   return (
     <>
-      <div className="section page-login" style={{direction: "ltr"}}>
+      <div className="section page-login" style={{ direction: "ltr" }}>
         <div className="container">
           <div className="row full-height justify-content-center">
             <div className="col-12 text-center align-self-center py-5">
@@ -32,7 +34,7 @@ const Login = () => {
                             <input
                               type="email"
                               name="logemail"
-                              className="form-style form-control"
+                              className="form-style form-control change-input"
                               placeholder="Your Email"
                               id="logemail"
                               autocomplete="off"
@@ -45,19 +47,21 @@ const Login = () => {
                             <input
                               type="password"
                               name="pass"
-                              className="form-style form-control"
+                              className="form-style form-control change-input"
                               placeholder="Your Password"
                               id="pass"
                               autocomplete="off"
                             />
                           </div>
-                          <a
+                          <button
                             style={{ fontSize: "20px" }}
-                            href="#"
+                            onClick={() => {
+                              navigate("/dashboard");
+                            }}
                             className="btn btn-secondary mt-4"
                           >
                             submit
-                          </a>
+                          </button>
                           <p className="mb-0 mt-4 text-center">
                             <a
                               style={{ textDecoration: "none" }}
@@ -81,7 +85,7 @@ const Login = () => {
                             <input
                               type="text"
                               name="logname"
-                              className="form-style form-control"
+                              className="form-style form-control change-input"
                               placeholder="Your Full Name"
                               id="logname"
                               autocomplete="off"
@@ -94,7 +98,7 @@ const Login = () => {
                             <input
                               type="email"
                               name="logemail"
-                              className="form-style form-control"
+                              className="form-style form-control change-input"
                               placeholder="Your Email"
                               id="logemail"
                               autocomplete="off"
@@ -107,7 +111,7 @@ const Login = () => {
                             <input
                               type="password"
                               name="logpass"
-                              className="form-style form-control"
+                              className="form-style form-control change-input"
                               placeholder="Your Password"
                               id="logpass"
                               autocomplete="off"

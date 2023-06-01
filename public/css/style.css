@@ -215,14 +215,14 @@ header {
   width: 55%;
   margin: auto;
 }
-.card-body a {
+.card-body .card-a {
   background-color: #2980b9;
   border-radius: 35px;
   box-shadow: 5px 8px 18px #000;
   width: 130px;
 }
 
-.card-body a:hover {
+.card-body .card-a:hover {
   background-color: #3498db;
   transform: translateY(-2px);
   transition: all 0.4s;

@@ -130,9 +130,10 @@ h6 span {
 .form-style::placeholder {
   color: white;
 }
-.form-control:focus {
+.input-group .change-input:focus {
   background-color: #1f2029;
   color: white;
+  font-size: 17px;
 }
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked) {
